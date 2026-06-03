@@ -1,0 +1,25 @@
+kind = "web"
+previewPath = "/"
+title = "WENZE Power Website"
+version = "1.0.0"
+id = "artifacts/wenze-power"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18438
+
+[services.development]
+run = "pnpm --filter @workspace/wenze-power run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/wenze-power", "run", "build" ]
+publicDir = "artifacts/wenze-power/.next"
+serve = "static"
+
+[services.env]
+PORT = "18438"
