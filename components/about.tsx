@@ -16,20 +16,20 @@ export function About() {
             Professional Transformer Manufacturer in Shandong, China
           </h2>
           <p className="text-muted-foreground text-lg">
-            Shandong Wenze Electric Co., Ltd. — Your trusted partner for reliable power transformer solutions
+            Shandong Wenze Electric Co., Ltd. �?Your trusted partner for reliable power transformer solutions
           </p>
         </div>
 
         {/* Factory Gate Image */}
         <div className="relative rounded-xl overflow-hidden mb-12 bg-black shadow-lg">
           <img
-            src="/大门口.png"
+            src="/大门�?png"
             alt="Wenze Electric Manufacturing Facility - Shandong China Transformer Factory"
             className="w-full object-cover aspect-[21/9]"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-primary/40 via-transparent to-transparent" />
           <div className="absolute bottom-0 left-0 right-0 p-6">
-            <p className="text-white font-semibold text-lg">Shandong Wenze Electric Co., Ltd. — Manufacturing Facility</p>
+            <p className="text-white font-semibold text-lg">Shandong Wenze Electric Co., Ltd. �?Manufacturing Facility</p>
           </div>
         </div>
 
@@ -41,7 +41,7 @@ export function About() {
               Founded in Shandong Province, China, Wenze Electric (山东文则电气有限公司) is a professional power transformer manufacturer with over 15 years of production experience. Our modern factory is equipped with advanced CNC winding machines, vacuum oil-filling systems, and a complete high-voltage testing laboratory.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              We manufacture transformer solutions across a wide voltage and capacity range — from compact distribution transformers (30kVA, 10kV) to large industrial power transformers (100MVA, 220kV). Every unit undergoes comprehensive factory acceptance testing (FAT) to ensure performance meets IEC 60076 and ANSI C57 international standards.
+              We manufacture transformer solutions across a wide voltage and capacity range �?from compact distribution transformers (30kVA, 10kV) to large industrial power transformers (100MVA, 220kV). Every unit undergoes comprehensive factory acceptance testing (FAT) to ensure performance meets IEC 60076 and ANSI C57 international standards.
             </p>
 
             {/* Certifications */}
@@ -125,7 +125,7 @@ export function About() {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-primary/40 via-transparent to-transparent" />
           <div className="absolute bottom-0 left-0 right-0 p-6">
-            <p className="text-white font-medium text-lg">Production Workshop — Transformer Assembly & Testing</p>
+            <p className="text-white font-medium text-lg">Production Workshop �?Transformer Assembly & Testing</p>
           </div>
         </div>
       </div>
